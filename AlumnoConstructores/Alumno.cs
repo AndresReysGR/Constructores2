@@ -16,7 +16,7 @@ namespace AlumnoConstructores
 
         public Alumno()
         {
-            Nombre = "Sin asignar";
+            Nombre = "Pendiente";
             Matricula = "Sin asignar";
             /*fechadenacimiento = ;*/
             Direccion = "Sin asignar";

@@ -13,21 +13,23 @@ namespace AlumnoConstructores
             Alumno alumno1 = new Alumno();
             alumno1.Nombre = "Pendiente";
             alumno1.Matricula = "Sin asignar";
-
+            Console.WriteLine("Datos del Alumno \n \t");
+            Console.WriteLine("Alumno 1:\n");
             Console.WriteLine(
-                "Nombre: " + alumno1.Nombre);
+                "\tNombre: " + alumno1.Nombre);
             Console.WriteLine(
-                "Matricula: " + alumno1.Matricula);
+                "\tMatricula: " + alumno1.Matricula);
 
+            //Usa el constructor sin parametros
+            //Despues establece sus atributos
 
             Alumno alumno2 =
-                new Alumno("Pendiente", "sin asignar");
-            Console.WriteLine("alumno2");
+                new Alumno("Sebastian", "188486512");
+            Console.WriteLine("\nAlumno 2:\n");
             Console.WriteLine(
-                "Nombre: " + alumno2.Nombre);
+                "\tNombre: " + alumno2.Nombre);
             Console.WriteLine(
-                "Matricula: " + alumno2.Matricula);
-
+                "\tMatricula: " + alumno2.Matricula);
 
             Console.Read();
         }
